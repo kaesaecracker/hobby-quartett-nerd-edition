@@ -1,0 +1,21 @@
+hobby_groups:
+  - name: Hacken
+    icon_descr: null
+    icon_url: null
+    cards:
+    - name: Löten
+      image_url: null
+      image_desc: Lötkolben
+    - name: Maken
+    - name: Zerforschen
+      image_desc: auseinander gebauter Leihroller
+    - name: Schließsport
+      image_desc: Schloss und Dietrich
+modifier_groups:
+  - name: Material
+    cards:
+    - name: Holz
+      image_url: null
+      image_desc: null
+    - name: Metall
+    - name: Plastik
