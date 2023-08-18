@@ -8,7 +8,7 @@ Quartett mit weiteren Spielmechaniken
 - Spiel mit mindestens 2 Kreaturen (bei 3 Kreaturen besteht das Plenum aus einer Person, bei weniger Spielern entfällt das Plenum)
 - Es gibt einen Ziehstapel für Hobbies und einen für Mods
 - Alle Spieler beginnen mit X Hobbies und Y Mods
-- Ein 
+- Gemeinsam wird entschieden, wer beginnt (im Zweifelsfall einfache Mehrheit)
 
 ### loop()
 - Die Kreatur, die aktuell am Zug ist fordert eine andere Kreatur zur Diskussion heraus
@@ -24,8 +24,10 @@ Quartett mit weiteren Spielmechaniken
 
 
 ### Sonderregeln
-- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
+Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann
 
+- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
+- Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 
 ## Werte
  * Manchmal stehen einheiten drauf, manchmal aber nur text
@@ -59,7 +61,6 @@ Quartett mit weiteren Spielmechaniken
  * Geschwindigkeit (von der spielenden Person): höher ist besser
 
 ## Tie Breaker / Modifier
- * können direkt oder bei Gleichstand gespielt werden, um ein patt zu lösen
  * gelten für beide seiten "global"?
 
  * mit Katzenohren
