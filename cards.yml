@@ -1,16 +1,17 @@
 hobby_groups:
   - name: Hacken
-    icon_descr: null
+    icon_desc: null
     icon_url: null
     cards:
     - name: Löten
       image_url: null
-      image_desc: Lötkolben
+      image_desc: Lötkolben      
     - name: Maken
     - name: Zerforschen
       image_desc: auseinander gebauter Leihroller
     - name: Schließsport
       image_desc: Schloss und Dietrich
+
 modifier_groups:
   - name: Material
     cards:
@@ -19,3 +20,42 @@ modifier_groups:
       image_desc: null
     - name: Metall
     - name: Plastik
+  - name: Mit Droge in Konsumform
+    cards:
+    - name: Bier / Sekt
+    - name: Cocktail
+    - name: Vaporizer
+    - name: Tüte
+    - name: Tschunk
+    - name: Whisky
+  - name: Elemente
+    cards:
+    - name: Feuer
+    - name: Wasser
+    - name: Erde
+    - name: Luft
+  - name: Präsenz
+    cards:
+    - name: online
+    - name: offline
+    - name: remote
+    - name: physisch
+  - name: Geschwindigkeit
+    cards:
+    - name: beschleunigt
+    - name: verlangsamt
+  - name: Größe
+    cards:
+    - name: vergrößert
+    - name: verleinert
+  - name: Personenanzahl
+    cards:
+    - name: mehr Menschen
+    - name: weniger Menschen
+  - name: Ort
+    cards:
+    - name: Hackerevent
+      image_desc: Camp/Kongress
+    - name: Hackerspace
+    - name: Natur
+    - name: Zuhause

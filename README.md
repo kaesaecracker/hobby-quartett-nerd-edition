@@ -39,56 +39,13 @@ Tie Breaker / Modifier
  * können direkt oder bei Gleichstand gespielt werden, um ein patt zu lösen
  * gelten für beide seiten "global"?
 
-
- * elemente / natur
-   * feuer
-   * wasser
-   * erde
-   * luft
- * online
- * offline
- * remote
- * physisch
- * drogen
-   * bier
-   * sekt
-   * Cocktail
-   * vaporizer
-   * tüte
-   * tschunk
-   * whisky
- * gehörgeschützt / schallgedämmt 
  * mit Katzenohren
  * blinky
- * mit den kindern zusammen?
  * frei (wie Bier / wie Freiheit)
- * material
-   * metall
-   * plastik (auch im Sinne von Gegenteil von Skulptur verwendbar)
-   * holz
- * Geschwindigkeit
-   * beschleunigt
-   * entschleunig
- * Größe
-   * groß
-   * klein
- * Personenanzahl
-   * mehr Menschen
-   * weniger Menschen
  * besser ist schlechter / schlechter ist besser
  * Anti Indikationen entfallen
- * Ort
-   * beim Hackerevent (Bild: Camp/Kongress)
-   * Im Hackerspace
-   * in der Natur
-   * Zuhause
 
 Hobbies
- * Hacken
-   * löten
-   * maken
-   * zerforschen
-   * Schließsport (Schlösser knacken)
  * Nachtbeschäftigung / Party
    * Karaoke
    * Tanzen
