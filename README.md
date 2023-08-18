@@ -78,10 +78,9 @@ Tie Breaker / Modifier
  * besser ist schlechter / schlechter ist besser
  * Anti Indikationen entfallen
  * Ort
-   * Communication Camp
+   * beim Hackerevent (Bild: Camp/Kongress)
    * Im Hackerspace
    * in der Natur
-   * Beim Kongress
    * Zuhause
 
 Hobbies
@@ -89,7 +88,7 @@ Hobbies
    * löten
    * maken
    * zerforschen
-   * Schließsport
+   * Schließsport (Schlösser knacken)
  * Nachtbeschäftigung / Party
    * Karaoke
    * Tanzen
@@ -142,8 +141,7 @@ Hobbies
    * lesen, Hörbücher (zusammen) hören
    * podcasts hören
    * wikipedia
- * künstliche Intelligenz (bildgenerierung, sprachmodelle, 
- * Wikipedia lesen
+ * künstliche Intelligenz (bildgenerierung, sprachmodelle)
  * programmieren
  * 3d drucken
  * holzwerken
