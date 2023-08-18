@@ -1,10 +1,33 @@
+# Hobby-Quartett - Nerd-Edition
+
 Quartett mit weiteren Spielmechaniken
 
-Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
+## Regelideen
 
-wenn das publikum entscheiden muss, wer die karte bekommt, wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen aber keiner darf dagegen sein) - bei drei spielern entscheidet einfach der dritte
+### init()
+- Spiel mit mindestens 2 Kreaturen (bei 3 Kreaturen besteht das Plenum aus einer Person, bei weniger Spielern entfällt das Plenum)
+- Es gibt einen Ziehstapel für Hobbies und einen für Mods
+- Alle Spieler beginnen mit X Hobbies und Y Mods
+- Ein 
 
-Werte
+### loop()
+- Die Kreatur, die aktuell am Zug ist fordert eine andere Kreatur zur Diskussion heraus
+- Beide Kreaturen legen ein Hobby verdeckt vor sich und drehen sie gleichzeitig um
+- Beide Kreaturen erklären, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt, da sie bereits Zeit zum Überlegen hatte
+- Die herausfordernde Kreatur legt einen Mod offen aus. Die herausgeforderte Kreatur antwortet nach kurzer Bedenkzeit ebenfalls mit einem Mod
+- Beide Spieler versuchen den anderen zu überzeugen, warum ihr Hobby besser ist
+- Wird keine Einigung erzielt, wird das Plenum aufgerufen
+
+### plenum()
+- Das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
+- ab 3 Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
+
+
+### Sonderregeln
+- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
+
+
+## Werte
  * Manchmal stehen einheiten drauf, manchmal aber nur text
  * Vergleich im plenum wenn die zwei relevanten personen nicht einig werden
  * alles hat einen Wert zwischen 23-42
@@ -35,7 +58,7 @@ Werte
  * Portabilität (z.B. Packmaß: portablet ist besser
  * Geschwindigkeit (von der spielenden Person): höher ist besser
 
-Tie Breaker / Modifier
+## Tie Breaker / Modifier
  * können direkt oder bei Gleichstand gespielt werden, um ein patt zu lösen
  * gelten für beide seiten "global"?
 
@@ -45,7 +68,7 @@ Tie Breaker / Modifier
  * besser ist schlechter / schlechter ist besser
  * Anti Indikationen entfallen
 
-Hobbies
+## Hobbies
  * Nachtbeschäftigung / Party
    * Karaoke
    * Tanzen
