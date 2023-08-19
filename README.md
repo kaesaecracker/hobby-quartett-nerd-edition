@@ -96,10 +96,7 @@ Karten enthalten folgende Informationen:
   - Tanzen
   - Tschunkeln
   - geselliges Beisammensein
-- tagsüber aufm camp
-  - talks ansehen
-  - workshops besuchen
-  - Baden gehen
+- Baden gehen
 - kinky geeks
 - kochen (kochen und würzen. Scharfes essen)
 - campen / reisen
@@ -111,6 +108,7 @@ Karten enthalten folgende Informationen:
 - Medienkonsum
   - podcasts hören
 - künstliche Intelligenz (bildgenerierung, sprachmodelle)
+- Haustier
 
 ### Sportideen
 

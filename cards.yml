@@ -88,7 +88,7 @@ hobby_groups:
       - name: Saugen
         description: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
       - name: Cloudexorzismus
-      - name: Buzzword-Bingo
+      - name: Buzzword-Bingo / Häcken, dass... / ?
   - name: Nahrung
     cards:
       - name: Gärtnern (Kräuter, Gemüse, Pilze, Obst)
@@ -117,6 +117,7 @@ modifier_groups:
       - name: Wasser
       - name: Erde
       - name: Luft
+      - name: Strom
   - name: Präsenz
     cards:
       - name: online
@@ -138,7 +139,8 @@ modifier_groups:
   - name: Ort
     cards:
       - name: Hackerevent
-        description: Bild vom Camp/Kongress
+        image:
+          -descr: Bild vom Camp/Kongress
       - name: Hackerspace
       - name: Natur
       - name: Zuhause
@@ -146,3 +148,4 @@ modifier_groups:
     cards:
       - name: besser ist schlechter / schlechter ist besser
       - name: Anti Indikationen entfallen
+      - name: Hobbies werden getauscht!
