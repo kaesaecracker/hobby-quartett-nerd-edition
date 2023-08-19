@@ -5,12 +5,12 @@ metric_metadata:
   #- name: Nerdscore
   #  is_lower_better: false
   #  descr: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
-  - name: Risiko
+  - name: Risiko 
     is_lower_better: true
-    descr: Mögliche gesundheitliche, rechtliche oder soziale Folgen
-  - name: Alltagstauglichkeit
+    descr: Mögliche negative gesundheitliche, rechtliche oder soziale Folgen
+  - name: Nutzen
     is_lower_better: false
-    descr: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben?
+    descr: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben? Mögliche positive gesundheitliche, rechtliche oder soziale Folgen
   - name: Mobilität
     is_lower_better: true
     descr: Packmaß, Gewicht der Ausrüstung

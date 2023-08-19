@@ -52,14 +52,6 @@ Karten enthalten folgende Informationen:
 
 ### Werte
 
- * Die Werte beziehen sich immer auf die Person, die die Karte spielt
- * Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
- * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
- * Alles hat einen Wert zwischen 23 und 42
-   * 23 und 42 gewinnen immer, 23>42
-   * Manchmal einheitenlose Zahlen
- * Die Spielenden müssen die Skalen bei Bedarf umrechnen
-
 - Die Werte beziehen sich immer auf die Person, die die Karte spielt
 - Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
 - Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
@@ -78,14 +70,6 @@ Karten enthalten folgende Informationen:
   - Nerdscore / wie nerdig ist es?
   - Geeky vs. Populär?
   - Welches Soziotop trifft man bei Ausübung?
-- Risiko (weniger ist besser) / Alltagstauglichkeit bzw. Vernunft (höher ist besser)
-  - verletzungsriesiko / schwere der zu erwartenden Verletzungen?
-  - Todesgefahr?
-  - Wie nützlich sind die Skills, die man trainiert, im restlichen Leben
-- Anfahrtsweg / Vor- und Nachbereitungsaufwand: weniger ist besser
-- Sportlichkeit: höher ist besser
-- Portabilität (z.B. Packmaß: portablet ist besser
-- Geschwindigkeit (von der spielenden Person): höher ist besser
 
 ## Tie Breaker / Modifier
 
