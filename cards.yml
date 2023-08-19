@@ -22,16 +22,36 @@ hobby_groups:
     # - path: null
     - url: null
     cards:
-    - name: Löten
+    - name: Hardware Hacking
       image:
-      - descr: Lötkolben      
-    - name: Maken
+      - descr: auseinander gebauter Leihroller    
     - name: Zerforschen
-      image:
-      - descr: auseinander gebauter Leihroller
     - name: Schließsport
       image:
       - descr: Schloss und Dietrich
+    - name: Foodhacking
+  - name: Spiele
+    cards:
+    - name: Pen&Paper
+    - name: Go / Baduk
+    - name: Videospiele
+  - name: Räder
+    enable_by_default: false
+    cards:
+    - name: Einrad
+    - name: Zweirad
+      image: Generisches Fahrrad
+    - name: Mehrrad
+      image:
+      - descr: Dreirad
+    - name: Vielrad
+      image:
+      - descr: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
+      attributes:
+      - Nerdscore: Multidimensionales Wesen
+      - Risiko: lieber nicht regelmäßig machen
+      - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
+  - name: 
 
 modifier_groups:
   - name: Material

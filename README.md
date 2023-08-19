@@ -32,6 +32,7 @@ Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann
 - Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
 - Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 - Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
+- Bei Werten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
 
 ## Karten
 Karten enthalten folgende Informationen:
@@ -44,10 +45,6 @@ Karten enthalten folgende Informationen:
 ### Werte
  * Die Werte beziehen sich immer auf die Person, die die Karte spielt
  * Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
- * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
- * Alles hat einen Wert zwischen 23 und 42
-   * 23 und 42 gewinnen immer, 23>42
-   * Manchmal einheitenlose Zahlen
  * Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
  * Hobby-Hoppability (Commitment, Investistion, Lernkurve): höher ist besser
@@ -102,9 +99,6 @@ Karten enthalten folgende Informationen:
  * Spiele
    * brettspiele
    * kartenspiele
-   * pen+paper
-   * go / Baduk spielen
-   * Videospiele (inkl. VR)
  * Luft-Sportarten
    * Acro-GS
    * "Normal" gleitschirmfliegen
