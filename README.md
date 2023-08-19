@@ -30,7 +30,7 @@ Quartett mit weiteren Spielmechaniken
 - Ab drei Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen, aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
 - Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
-### Regeln - RFC
+## RFCs
 
 Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
 
@@ -50,23 +50,13 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
 - Spielen ohne Modifier
 - Spielen mit globalem, zufälligen Modifier nach dem Legen der Hobbies
 
-## Karten
+## Aspekte
 
-Karten enthalten folgende Informationen:
-
-- Name des Hobbies (darf beliebig interpretiert werden)
-- Icon der Hobby-Gruppe
-- Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
-- Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
-
-### Aspekte
- * Die Aspekte beziehen sich immer auf die Person, die die Karte spielt
- * Manche Aspektefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
- * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
- * Alles hat einen Wert zwischen 23 und 42
-   * 23 und 42 gewinnen immer, 23>42
-   * Manchmal einheitenlose Zahlen
- * Die Spielenden müssen Einheiten bei Bedarf in die gleiche Einheit umrechnen
+- Die Aspekte beziehen sich immer auf die Kreatur, die die Karte spielt
+- Manche Werte der Aspekte sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+- Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
+- Manche Aspektefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+- Die Spielenden müssen Einheiten bei Bedarf in die gleiche Einheit umrechnen
 
 - Hobby-Hoppability (Commitment, Investistion, Lernkurve): höher ist besser
   - Wie schwierig /langwierig zu lernen (für mich, recherchieren)
@@ -90,7 +80,16 @@ Karten enthalten folgende Informationen:
 - blinky
 - frei (wie Bier / wie Freiheit)
 
-## Hobby-Kartenideen
+## Hobby-Karten
+
+Karten enthalten folgende Informationen:
+
+- Name des Hobbies (darf beliebig interpretiert werden)
+- Icon der Hobby-Gruppe
+- Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
+- Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
+
+### Ideen
 
 - Nachtbeschäftigung / Party
   - Karaoke
@@ -113,7 +112,7 @@ Karten enthalten folgende Informationen:
   - podcasts hören
 - künstliche Intelligenz (bildgenerierung, sprachmodelle)
 
-### Sport
+### Sportideen
 
  - Luft-Sportarten
    - Acro-GS
