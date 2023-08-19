@@ -6,19 +6,46 @@ Quartett mit weiteren Spielmechaniken
 
 - Bei Uneinigkeiten bei den Regeln während des Spiels wird im Plenum mit einfacher Mehrheit entschieden. Direkt betroffene Kreaturen haben in diesem Fall kein Stimmrecht.
 
+### def goal()
+
+- Das Spiel gewonnen hat die Kreatur mit den meisten Hobbykarten im Repertoire.
+- Eine Runde ist gewonnen, wenn eine Kreatur drei Aspekte gewinnt. Sie darf beide Hobbykarten auf ihren Repertoire-Hobbyhaufen legen.
+
 ### def init()
 
-- Spiel mit mindestens zwei Kreaturen (bei drei Kreaturen besteht das Plenum aus einer Person, bei weniger Spielenden entfällt das Plenum)
-- Es gibt einen Ziehstapel für Hobbies und einen für Mods
-- Alle Spielenden beginnen mit X Hobbies und Y Mods
-- Gemeinsam wird entschieden, wer beginnt (im Zweifelsfall einfache Mehrheit)
+- Spiel mit mindestens zwei Kreaturen.
+- Es gibt pro Runde zwei Spielende, die gegeneinander spielen. Restliche Spielenden bilden das Plenum.
+- Es gibt einen Ziehstapel für Hobbies und einen für Modifikatoren.
+- Alle Spielenden werden mit 5 Hobbies verdeckt und 3 Modifikatoren offen ausgeteilt.
+- Gemeinsam wird entschieden, wer beginnt (im Zweifelsfall einfache Mehrheit).
 
-### def loop()
+### def round()
 
-- Die Kreatur, die aktuell am Zug ist fordert eine andere Kreatur zur Diskussion heraus
-- Beide Kreaturen legen je ein Hobby verdeckt vor sich und drehen die Karte gleichzeitig um
-- Beide Kreaturen erklären nacheinander, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt.
-- Die herausfordernde Kreatur legt einen Mod offen aus. Die herausgeforderte Kreatur antwortet nach kurzer Bedenkzeit ebenfalls mit einem Mod.
+- Die herausfordernde Kreatur fordert eine beliebige Spielerperson heraus.
+- Die herausfordernde Kreatur wählt eine Hobbykarte aus ihrem Deck und nennt einen Aspekt.
+- Die herausgeforderte Kreatur wählt eine Hobbykarte aus ihrem Deck.
+- Die Hobbykarten werden offengelegt und der Aspekt diskutiert.
+
+#### def loop()
+
+- Modifikatoren können nun nach Belieben eingesetzt werden, auch vom Plenum. Sie gelten für diese Runde ab Aussprache für die Zukunft.
+- Der Aspektevergleich wird entschieden.
+- Hat eine Kreatur drei Aspekte gewonnen, darf sie beide Hobbykarten auf ihren Repertoirehaufen legen.
+- Hat keine der beiden Spielenden drei Aspekte gewonnen, erfolgt die Nennung des nächsten Aspekts in Abwechslung.
+
+#### def next_round()
+
+- Die Spielerperson mit den wenigsten Hobbies in ihrem Repertoire darf die nächste Runde gebinnen und
+
+- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
+- Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
+- Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
+- Bei Aspekten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
+- Spielen ohne Modifikatoren
+- Spielen mit globalem, zufälligen Modifikator nach dem Legen der Hobbies
+
+#### def discussion()
+
 - Beide Spieler versuchen den anderen zu überzeugen, warum ihr Hobby besser ist
 - Wird keine Einigung erzielt, wird das Plenum aufgerufen
 - Die Kreatur, deren Hobby als besser/passender eingestuft wurde bekommt die gespielten Karten auf die Hand
@@ -33,32 +60,6 @@ Quartett mit weiteren Spielmechaniken
 ## RFCs
 
 Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
-
-### Prerequsites
-
-- Es gibt einen Stapel Modifier Karten und einen Hobbykartenstapel.
-- Aus dem Hobbykartestapel bekommen alle Spielende 5 Karten, die nur sie sehen sollen.
-- Aus dem Modifierstapel bekommen alle Spielende 3 Modifierkarten (offen).
-- Bestimmung, wie begonnen wird wie oben. Es gibt eine herausfordernden und herausgeforderten Kreatur.
-
-### Round
-
-- Die herausfordernde Kreatur wählt eine Hobbykarte aus ihrem Deck und nennt einen Einstiegs-Aspekt.
-- Die herausgeforderte Kreatur wählt eine Hobbykarte aus ihrem Deck.
-- Die Hobbykarten werden offengelegt.
-- Modifier können nun nach Belieben eingesetzt werden. Sie gelten für diese Runde ab Aussprache für die Zukunft.
-- Einer der Spielenden gewinnt den Aspekt. Bei Uneindeutigkeit wird das Plenum befragt.
-- Beide Spielenden können pro Hobbykarte einen der beiden Modifier einsetzten, der sich nun auf den Aspekt beider Hobbykarten bezieht. Nach Gebrauch kommt die Modifierkarte zurück in den Stapel.
-- Die Nennung eines Aspekts erfolgt abwechlend, dabei beginnt die herausfodernde Kreatur.
-- Hat eine Kreatur drei Aspekte gewonnen, bekommt sie die Hobbykarte der anderen Kreatur.
-- Jede spielende Person hat einen Stapel gewonnener Hobbykarten, die am Ende gezählt werden.
-- Die Kreatur mit den meisten Hobbies hat gewonnen.
-- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
-- Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
-- Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
-- Bei Aspekten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
-- Spielen ohne Modifier
-- Spielen mit globalem, zufälligen Modifier nach dem Legen der Hobbies
 
 ## Aspekte
 
@@ -82,7 +83,7 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
   - Geeky vs. Populär?
   - Welches Soziotop trifft man bei Ausübung?
 
-## Tie Breaker / Modifier
+## Tie Breaker / Modifikatoren
 
 - gelten für beide seiten "global"?
 
