@@ -3,18 +3,18 @@
 Quartett mit weiteren Spielmechaniken
 
 ## rules.py
-- Bei Uneinigkeiten bei den Regeln während des Spiels wird im Plenum entschieden. Direkt betroffene Kreaturen haben in diesem Fall kein Stimmrecht.
+- Bei Uneinigkeiten bei den Regeln während des Spiels wird im Plenum mit einfacher Mehrheit entschieden. Direkt betroffene Kreaturen haben in diesem Fall kein Stimmrecht.
 - 
 ### def init():
-- Spiel mit mindestens 2 Kreaturen (bei 3 Kreaturen besteht das Plenum aus einer Person, bei weniger Spielern entfällt das Plenum)
+- Spiel mit mindestens zwei Kreaturen (bei drei Kreaturen besteht das Plenum aus einer Person, bei weniger Spielenden entfällt das Plenum)
 - Es gibt einen Ziehstapel für Hobbies und einen für Mods
-- Alle Spieler beginnen mit X Hobbies und Y Mods
+- Alle Spielenden beginnen mit X Hobbies und Y Mods
 - Gemeinsam wird entschieden, wer beginnt (im Zweifelsfall einfache Mehrheit)
 
 ### def loop():
 - Die Kreatur, die aktuell am Zug ist fordert eine andere Kreatur zur Diskussion heraus
-- Beide Kreaturen legen je ein Hobby verdeckt vor sich und drehen sie gleichzeitig um
-- Beide Kreaturen erklären, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt, da sie bereits Zeit zum Überlegen hatte.
+- Beide Kreaturen legen je ein Hobby verdeckt vor sich und drehen die Karte gleichzeitig um
+- Beide Kreaturen erklären nacheinander, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt.
 - Die herausfordernde Kreatur legt einen Mod offen aus. Die herausgeforderte Kreatur antwortet nach kurzer Bedenkzeit ebenfalls mit einem Mod. 
 - Beide Spieler versuchen den anderen zu überzeugen, warum ihr Hobby besser ist
 - Wird keine Einigung erzielt, wird das Plenum aufgerufen

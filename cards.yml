@@ -11,7 +11,9 @@ metric_metadata:
   - name: Alltagstauglichkeit
     lower_is_better: false
     descr: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben?
-  - name: Portabilität
+  - name: Mobilität
+    lower_is_better: true
+    descr: Packmaß, Gewicht der Ausrüstung
 
 hobby_groups:
   - name: Hacken
