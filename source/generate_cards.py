@@ -12,5 +12,5 @@ template = env.get_template("cards.html.j2")
 with open('cards.yml') as yaml_file:
     data = load(yaml_file, Loader=Loader)
 
-with open('build/cards.html', 'w') as html_file:
+with open('../public/cards.html', 'w') as html_file:
     html_file.write(template.render(data))
