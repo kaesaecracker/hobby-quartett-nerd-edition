@@ -32,12 +32,14 @@ Quartett mit weiteren Spielmechaniken
 
 ### Sonderregeln
 
-Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann
+Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
 
 - Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
 - Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 - Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
 - Bei Werten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
+- Spielen ohne Modifier
+- Spielen mit globalem, zufälligen Modifier nach dem Legen der Hobbies
 
 ## Karten
 
@@ -91,78 +93,68 @@ Karten enthalten folgende Informationen:
 - Anti Indikationen entfallen
 
 ## Hobbies
-
-- Nachtbeschäftigung / Party
-  - Karaoke
-  - Tanzen
-  - Tschunkeln
-  - geselliges Beisammensein
-- tagsüber aufm camp
-  - engeln / Eventorga
-  - talks ansehen
-  - workshops besuchen
-  - Baden gehen
-- Chaoten-Aktivitäten
-  - offener Tag im Hackerspace
-  - Hacker meetups / assemblies
-  - Saugen / Sharing is caring
-  - Cloudexorzismus
-- kinky geeks
-- kochen (kochen und würzen. Scharfes essen)
-- Spiele
-  - brettspiele
-  - kartenspiele
-  - pen+paper
-  - go / Baduk spielen
-  - Videospiele (inkl. VR)
-- Luft-Sportarten
-  - Acro-GS
-  - "Normal" gleitschirmfliegen
-  - Drachenfliegen
-  - Hike & Fly
-- Wasser-Sportarten
-  - kitesurfen
-  - Tauchen
-- Rad
-  - Ballaballa
-  - "Normales" Rad
-  - Buggy-Kiten
-  - Longboard
-- Outdoor
-  - Bodenkiten
-  - Slackline
-  - Bouldern
-- jonglieren
-- Kraftsport
-- campen / reisen
-- Den planeten verbessern, was für die Allgemeinheit tun
-- Medienkonsum
-  - holzbearbeitungs Videos anschauen
-  - Into the Rabbithole
-  - Serien schauen
-  - vorträge schauen
-  - lesen, Hörbücher (zusammen) hören
-  - podcasts hören
-  - wikipedia
-- künstliche Intelligenz (bildgenerierung, sprachmodelle)
-- programmieren
-- 3d drucken
-- holzwerken
-- kampfsport
-  - aikido
-  - tae Kwon do
-  - kickboxen
-  - kung fu
-  - eurythmie
-  - eskrima
-  - stockkampf
-  - schwertkampf
-  - bogenschießen
-- Food
-  - Gärtnern (Kräuter, Gemüse, Pilze, Obst)
-  - Fermentieren
-  - Kochen
-  - Backen
+ - Nachtbeschäftigung / Party
+   - Karaoke
+   - Tanzen
+   - Tschunkeln
+   - geselliges Beisammensein
+ - tagsüber aufm camp
+   - engeln / Eventorga
+   - talks ansehen
+   - workshops besuchen
+   - Baden gehen
+ - Chaoten-Aktivitäten
+   - offener Tag im Hackerspace
+   - Hacker meetups / assemblies 
+   - Saugen / Sharing is caring
+   - Cloudexorzismus
+ - kinky geeks
+ - kochen (kochen und würzen. Scharfes essen)
+ - Spiele
+   - brettspiele
+   - kartenspiele
+ - Luft-Sportarten
+   - Acro-GS
+   - "Normal" gleitschirmfliegen
+   - Drachenfliegen
+   - Hike & Fly
+ - Wasser-Sportarten
+   - kitesurfen
+   - Tauchen
+ - Outdoor
+   - Bodenkiten
+   - Slackline
+   - Bouldern
+ - jonglieren
+ - Kraftsport
+ - campen / reisen
+ - Den planeten verbessern, was für die Allgemeinheit tun
+ - Medienkonsum
+   - holzbearbeitungs Videos anschauen
+   - Into the Rabbithole
+   - Serien schauen
+   - vorträge schauen
+   - lesen, Hörbücher (zusammen) hören
+   - podcasts hören
+   - wikipedia
+ - künstliche Intelligenz (bildgenerierung, sprachmodelle)
+ - 3d drucken
+ - holzwerken
+ - kampfsport
+   - aikido
+   - tae Kwon do
+   - kickboxen
+   - kung fu
+   - eurythmie
+   - eskrima
+   - stockkampf
+   - schwertkampf
+   - bogenschießen
+ - Food
+   - Gärtnern (Kräuter, Gemüse, Pilze, Obst)
+   - Fermentieren
+   - Kochen
+   - Backen
 - politisches engagement
   - Open source
   - Öffentlichkeitsarbeit

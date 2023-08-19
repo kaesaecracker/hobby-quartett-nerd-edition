@@ -54,7 +54,16 @@ hobby_groups:
       - Nerdscore: Multidimensionales Wesen
       - Risiko: lieber nicht regelmäßig machen
       - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
-  - name: 
+  - name: besondere Räder
+    cards:
+    - name: Ballaballa
+    - name: Buggy-Kiten
+    - name: Longboard
+  - name: Medienkonsum
+    cards:
+    - name: Into the Rabbithole
+      image:
+      - description: 
 
 modifier_groups:
   - name: Material
