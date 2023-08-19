@@ -1,7 +1,7 @@
 # first rule = default
-all: cards.html
+all: build/cards.html
 
-cards.html: cards.yml templates/cards.html.j2 generate_cards.py
+build/cards.html: cards.yml templates/cards.html.j2 generate_cards.py
 	python generate_cards.py
 
 .PHONY: build clean watch-linux
@@ -14,5 +14,5 @@ watch-linux:
 		done
 
 clean:
-	rm cards.html
+	rm -r build
 	rm -r __pycache__
