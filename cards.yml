@@ -149,3 +149,9 @@ modifier_groups:
       - name: besser ist schlechter / schlechter ist besser
       - name: Anti Indikationen entfallen
       - name: Hobbies werden getauscht!
+  - name: Gemeinnützigkeit
+    cards:
+      - name: Open knowledge
+      - name: politisches engagement
+      - name: Open source
+      - name: organisieren
