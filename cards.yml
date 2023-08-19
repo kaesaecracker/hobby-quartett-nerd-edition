@@ -1,35 +1,42 @@
 aspect_metadata:
-  - name: Hobby-Hoppability
+  hoppability:
+    name: Hoppability
     is_lower_better: false
-    descr: Commitment, Investistion, Lernkurve
+    description: Commitment, Investistion, Lernkurve
   #- name: Nerdscore
   #  is_lower_better: false
-  #  descr: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
-  - name: Risiko
+  #  description: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
+  risk:
+    name: Risiko
     is_lower_better: true
-    descr: Mögliche negative gesundheitliche, rechtliche oder soziale Folgen
-  - name: Nutzen
+    description: Mögliche negative gesundheitliche, rechtliche oder soziale Folgen
+  use:
+    name: Nutzen
     is_lower_better: false
-    descr: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben? Mögliche positive gesundheitliche, rechtliche oder soziale Folgen
-  - name: Mobilität
+    description: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben? Mögliche positive gesundheitliche, rechtliche oder soziale Folgen
+  mobility:
+    name: Mobilität
     is_lower_better: true
-    descr: Packmaß, Gewicht der Ausrüstung
-  - name: Geschwindigkeit
+    description: Packmaß, Gewicht der Ausrüstung
+  speed:
+    name: Geschwindigkeit
     is_lower_better: false
-    descr: Von der ausübenden Person beeinflussbare Geschwindigkeit
+    description: Von der ausübenden Person beeinflussbare Geschwindigkeit
 
 hobby_groups:
   - name: Hacken
-    icon:
-      - descr: null
-      # - path: null
-      - url: null
     cards:
       - name: Hardware Hacking
-        description: auseinander gebauter Leihroller
+        image:
+          alt: auseinander gebauter Leihroller
+        aspects:
+          hoppability: 5
+          risk: Angebrannter Finger
+          use: hoch!
       - name: Zerforschen
       - name: Schließsport
-        description: Schloss und Dietrich
+        icon:
+          - alt: Schloss und Dietrich
       - name: Foodhacking
   - name: Maken
     cards:
@@ -50,19 +57,25 @@ hobby_groups:
     enable_by_default: false
     cards:
       - name: Einrad
-        image: images/unicycle.png
+        image:
+          src: images/unicycle.png
+          alt: Einrad
       - name: Zweirad
-        image: images/mountain-biker.png
+        image:
+          src: images/mountain-biker.png
+          alt: Mountain Bike
       - name: Mehrrad
-        description: Dreirad
-        image: images/buggy.jpeg
+        image:
+          src: images/buggy.jpeg
+          alt: dreirädriger Buggy
       - name: Vielrad
-        description: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
-        image: images/many-wheeled-vehicle.png
+        image:
+          src: images/many-wheeled-vehicle.png
+          alt: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
         aspects:
-          - Nerdscore: Multidimensionales Wesen
-          - Risiko: lieber nicht regelmäßig machen
-          - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
+          nerdscore: Multidimensionales Wesen
+          risk: lieber nicht regelmäßig machen
+          mobility: Mehr Räder reduzieren die Reibung im Wurmloch
   - name: besondere Räder
     cards:
       - name: Ballaballa
@@ -71,15 +84,20 @@ hobby_groups:
   - name: Medienkonsum
     cards:
       - name: Into the Rabbithole
-        description: weißer Hase
+        image:
+          alt: weißer Hase
       - name: Bücher
-        description: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
+        image:
+          alt: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
       - name: Online-Tutorials/Workshops/Talks
-        description: PeerTube Holzbearbeitungs-Video
+        image:
+          alt: PeerTube Holzbearbeitungs-Video
       - name: Filme/Serien
-        description: Cover von 23 vermischt mit Hackers
+        image:
+          alt: Cover von 23 vermischt mit Hackers
       - name: Reportagen
-        description: Cover von "All Creatures Welcome"
+        image:
+          alt: Cover von "All Creatures Welcome"
   - name: Alles für den Club!
     cards:
       - name: offener Tag
@@ -89,7 +107,8 @@ hobby_groups:
   - name: Chaoten-Aktivitäten
     cards:
       - name: Saugen
-        description: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
+        image:
+          alt: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
       - name: Cloudexorzismus
       - name: Buzzword-Bingo / Häcken, dass... / ?
   - name: Nahrung
@@ -154,7 +173,7 @@ modifier_groups:
     cards:
       - name: Hackerevent
         image:
-          - descr: Bild vom Camp/Kongress
+          - alt: Bild vom Camp/Kongress
       - name: Hackerspace
       - name: Natur
       - name: Zuhause

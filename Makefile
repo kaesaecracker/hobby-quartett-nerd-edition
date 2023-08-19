@@ -8,10 +8,10 @@ cards.html: cards.yml templates/cards.html.j2 generate_cards.py
 build:
 	watching_testrunner --pattern '*.py' --pattern '*.j2' --pattern '*.yml' -- make all
 watch-linux:
-	inotifywait -e close_write,moved_to,create -m . | \
+	inotifywait -e close_write,moved_to,create -m . images templates | \
 		while read -r directory events filename; do \
 			make all; \
-	done
+		done
 
 clean:
 	rm cards.html

@@ -1,0 +1,8 @@
+end_of_line = lf
+charset = utf-8
+indent_style = space
+insert_final_newline = true
+tab_width = 2
+
+[*.j2]
+tab_width = 4

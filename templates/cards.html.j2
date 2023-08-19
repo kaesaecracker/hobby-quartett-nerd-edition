@@ -1,34 +1,68 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
     <title>Hello, world!</title>
-  </head>
-  <body>
+</head>
+
+<body>
     {% for hobby_group in hobby_groups %}
-        <section class="hobby-group container">
-            <h2>{{ hobby_group.name }}</h2>
-            <div class="row row-cols-4 width-100">
-                {% for hobby in hobby_group.cards %}
-                    <div class="card h-100">
-                        <img src="{{ hobby.image}}" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">{{ hobby.name }}</h5>
-                            <p class="card-text">{{ hobby.description | default('TODO Breschreibung') }}</p>
-                        </div>
-                    </div>
-                {% endfor %}
+    <section class="hobby-group container">
+        <h2>{{ hobby_group.name }}</h2>
+        <div class="row row-cols-4 width-100">
+            {% for hobby in hobby_group.cards %}
+            <div class="card h-100 p-2 m-3">
+                <div class="card-headrow">
+                    <h5 class="card-title">{{ hobby.name }}</h5>
+                    <!-- TODO: Gruppenicon -->
+                </div>
+                <div class="card-debug" style="display: none">
+                    {{ hobby }}
+                </div>
+                {% if hobby.image is defined %}
+                <img src="{{ hobby.image.src }}" class="card-img-top" alt="{{ hobby.image.alt }}"
+                    title="{{ hobby.image.alt }}">
+                {% else %}
+                <p>Missing image</p>
+                {% endif %}
+                {% if hobby.aspects is defined %}
+                <div class="card-body">
+                    <table class="table">
+                        {% for aspect_key, aspect_data in aspect_metadata.items() %}
+
+                        <tr>
+                            <td>{{aspect_data.name}}
+                            </td>
+                            <td>{% if aspect_key in hobby.aspects %}{{ hobby.aspects[aspect_key] }}
+                                {% else %}
+                                <i> missing </i>
+                                {% endif %}
+                            </td>
+                        </tr>
+                        {% endfor %}
+                    </table>
+                </div>
+                {% else %}
+                <p>Aspects fehlen!</p>
+                {% endif %}
             </div>
-        </section>
+            {% endfor %}
+        </div>
+    </section>
     {% endfor %}
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
 
-  </body>
+</body>
+
 </html>
