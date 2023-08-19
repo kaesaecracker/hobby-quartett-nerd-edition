@@ -13,49 +13,51 @@
     <title>Hello, world!</title>
 </head>
 
-<body>
+<body>  
     {% for hobby_group in hobby_groups %}
-    <section class="hobby-group container">
+    <section class="hobby-group container-fluid">
         <h2>{{ hobby_group.name }}</h2>
         <div class="row row-cols-4 width-100">
             {% for hobby in hobby_group.cards %}
-            <div class="card h-100 p-2 m-3">
-                <div class="card-headrow">
-                    <h5 class="card-title">{{ hobby.name }}</h5>
-                    <!-- TODO: Gruppenicon -->
-                </div>
-                <div class="card-debug" style="display: none">
-                    {{ hobby }}
-                </div>
-                {% if hobby.image is defined %}
-                <img src="{{ hobby.image.src }}" class="card-img-top" alt="{{ hobby.image.alt }}"
-                    title="{{ hobby.image.alt }}">
-                {% else %}
-                <p>Missing image</p>
-                {% endif %}
-                {% if hobby.aspects is defined %}
-                <div class="card-body">
-                    <table class="table">
-                        {% for aspect_key, aspect_data in aspect_metadata.items() %}
+            <div class="p-2">
+                <div class="card p-2">
+                    {% if hobby.image is defined %}
+                    <img src="{{ hobby.image.src }}" class="card-img-top"
+                        alt="{% if 'src' not in hobby.image %}Missing image for prompt: {% endif %}{{ hobby.image.alt }}"
+                        title="{{ hobby.image.alt }}">
+                    {% else %}
+                    <p>Missing image</p>
+                    {% endif %}
+                    <p>{{loop.index}}/{{loop.length}}</p> 
+                    <div>
+                        <h5 class="card-title">{{ hobby.name }}</h5>
+                        <div class="card-debug" style="display: none">
+                            {{ hobby }}
+                        </div>
+                        {% if hobby.aspects is defined %}
+                        <div class="card-body">
+                            <table class="table">
+                                {% for aspect_key, aspect_data in aspect_metadata.items() %}
 
-                        <tr>
-                            <td>{{aspect_data.name}}
-                            </td>
-                            <td>{% if aspect_key in hobby.aspects %}{{ hobby.aspects[aspect_key] }}
-                                {% else %}
-                                <i> missing </i>
-                                {% endif %}
-                            </td>
-                        </tr>
-                        {% endfor %}
-                    </table>
+                                <tr>
+                                    <td>{{aspect_data.name}}
+                                    </td>
+                                    <td>{% if aspect_key in hobby.aspects %}{{ hobby.aspects[aspect_key] }}
+                                        {% else %}
+                                        <i> missing </i>
+                                        {% endif %}
+                                    </td>
+                                </tr>
+                                {% endfor %}
+                            </table>
+                        </div>
+                        {% else %}
+                        <p>Aspects fehlen!</p>
+                        {% endif %}
+                    </div>
                 </div>
-                {% else %}
-                <p>Aspects fehlen!</p>
-                {% endif %}
             </div>
             {% endfor %}
-        </div>
     </section>
     {% endfor %}
 

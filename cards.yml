@@ -25,6 +25,8 @@ aspect_metadata:
 
 hobby_groups:
   - name: Hacken
+    icon:
+      alt: Holz hacken
     cards:
       - name: Hardware Hacking
         image:
