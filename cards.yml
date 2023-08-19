@@ -5,7 +5,7 @@ metric_metadata:
   #- name: Nerdscore
   #  is_lower_better: false
   #  descr: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
-  - name: Risiko 
+  - name: Risiko
     is_lower_better: true
     descr: Mögliche negative gesundheitliche, rechtliche oder soziale Folgen
   - name: Nutzen
@@ -90,14 +90,25 @@ hobby_groups:
       - name: Reportagen
         image:
           - descr: Cover von "All Creatures Welcome"
-  - name: Chaoten-Aktivitäten
+  - name: Alles für den Club!
     cards:
       - name: offener Tag
       - name: Meetups / Assemblies
+      - name: Engeln / Eventorga
+      - name: Bekochen
+  - name: Chaoten-Aktivitäten
+    cards:
       - name: Saugen
         image:
           - descr: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
       - name: Cloudexorzismus
+      - name: Buzzword-Bingo
+  - name: Nahrung
+    cards:
+      - name: Gärtnern (Kräuter, Gemüse, Pilze, Obst)
+      - name: Fermentieren
+      - name: Kochen
+      - name: Backen
 
 modifier_groups:
   - name: Material
@@ -150,3 +161,7 @@ modifier_groups:
       - name: Hackerspace
       - name: Natur
       - name: Zuhause
+  - name: Umkehrung
+    cards:
+      - name: besser ist schlechter / schlechter ist besser
+      - name: Anti Indikationen entfallen

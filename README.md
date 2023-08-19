@@ -82,26 +82,36 @@ Karten enthalten folgende Informationen:
 ## Tie Breaker / Modifier
 
 - gelten für beide seiten "global"?
+
 - mit Katzenohren
 - blinky
 - frei (wie Bier / wie Freiheit)
-- besser ist schlechter / schlechter ist besser
-- Anti Indikationen entfallen
 
-## Hobbies
+## Hobby-Kartenideen
 
- - Nachtbeschäftigung / Party
-   - Karaoke
-   - Tanzen
-   - Tschunkeln
-   - geselliges Beisammensein
- - tagsüber aufm camp
-   - engeln / Eventorga
-   - talks ansehen
-   - workshops besuchen
-   - Baden gehen
- - kinky geeks
- - kochen (kochen und würzen. Scharfes essen)
+- Nachtbeschäftigung / Party
+  - Karaoke
+  - Tanzen
+  - Tschunkeln
+  - geselliges Beisammensein
+- tagsüber aufm camp
+  - talks ansehen
+  - workshops besuchen
+  - Baden gehen
+- kinky geeks
+- kochen (kochen und würzen. Scharfes essen)
+- campen / reisen
+- Gemeinnützigkeit
+  - open knowledge
+  - politisches engagement
+  - Open source
+  - organisieren
+- Medienkonsum
+  - podcasts hören
+- künstliche Intelligenz (bildgenerierung, sprachmodelle)
+
+### Sport
+
  - Luft-Sportarten
    - Acro-GS
    - "Normal" gleitschirmfliegen
@@ -116,12 +126,6 @@ Karten enthalten folgende Informationen:
    - Bouldern
  - jonglieren
  - Kraftsport
- - campen / reisen
- - Den planeten verbessern, was für die Allgemeinheit tun
- - Medienkonsum
-   - podcasts hören
- - open knowledge
- - künstliche Intelligenz (bildgenerierung, sprachmodelle)
  - kampfsport
    - aikido
    - tae Kwon do
@@ -132,12 +136,3 @@ Karten enthalten folgende Informationen:
    - stockkampf
    - schwertkampf
    - bogenschießen
- - Food
-   - Gärtnern (Kräuter, Gemüse, Pilze, Obst)
-   - Fermentieren
-   - Kochen
-   - Backen
-- politisches engagement
-  - Open source
-  - Öffentlichkeitsarbeit
-  - organisieren
