@@ -1,19 +1,22 @@
 metric_metadata:
   - name: Hobby-Hoppability
-    lower_is_better: false
+    is_lower_better: false
     descr: Commitment, Investistion, Lernkurve
   #- name: Nerdscore
-  #  lower_is_better: false
+  #  is_lower_better: false
   #  descr: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
   - name: Risiko
-    lower_is_better: true
-    descr: mögliche gesundheitliche, rechtliche oder soziale Folgen
+    is_lower_better: true
+    descr: Mögliche gesundheitliche, rechtliche oder soziale Folgen
   - name: Alltagstauglichkeit
-    lower_is_better: false
+    is_lower_better: false
     descr: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben?
   - name: Mobilität
-    lower_is_better: true
+    is_lower_better: true
     descr: Packmaß, Gewicht der Ausrüstung
+  - name: Geschwindigkeit
+    is_lower_better: false
+    descr: Von der ausübenden Person beeinflussbare Geschwindigkeit
 
 hobby_groups:
   - name: Hacken
