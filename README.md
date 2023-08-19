@@ -76,10 +76,10 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
 
 - gelten für beide seiten "global"?
 
+### Ideen
 - mit Katzenohren
-- blinky
 - frei (wie Bier / wie Freiheit)
-- mit mehr Musik / mit weniger Musik
+
 
 ## Hobby-Karten
 
@@ -99,7 +99,6 @@ Karten enthalten folgende Informationen:
   - geselliges Beisammensein
 - Baden gehen
 - kinky geeks
-- kochen (kochen und würzen. Scharfes essen)
 - campen / reisen
 - Medienkonsum
   - podcasts hören

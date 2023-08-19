@@ -160,3 +160,11 @@ modifier_groups:
       - name: besser ist schlechter / schlechter ist besser
       - name: Anti Indikationen entfallen
       - name: Hobbies werden getauscht!
+  - name: Musik
+    cards:
+      - name: mit mehr Musik
+      - name: mit weniger Musik
+  - name: Blinkyness
+    cards:
+      - name: mit mehr blinkenden LEDs
+      - name: mit weniger blinkenden LEDs
