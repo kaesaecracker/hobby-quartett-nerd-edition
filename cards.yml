@@ -33,11 +33,25 @@ hobby_groups:
       image:
       - descr: Schloss und Dietrich
     - name: Foodhacking
+  - name: Maken
+    cards:
+    - name: Löten
+    - name: Drucken - in 3D!
+    - name: Holzwerken
   - name: Spiele
     cards:
-    - name: Pen&Paper
-    - name: Go / Baduk
+    - name: Rollenspiel
+      image:
+      - descr: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
+    - name: Brettspiele
+      image:
+      - descr: Go / Baduk
     - name: Videospiele
+      image:
+      - descr: Mensch mit VR-Brille auf dem Kopf
+    - name: Kartenspiele
+      image:
+      - descr: Bild der Karte (inkl. dem Bild im Bild im Bild...)
   - name: Räder
     enable_by_default: false
     cards:
@@ -63,7 +77,27 @@ hobby_groups:
     cards:
     - name: Into the Rabbithole
       image:
-      - description: 
+      - descr: weißer Hase
+    - name: Bücher
+      image:
+      - descr: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
+    - name: Online-Tutorials/Workshops/Talks
+      image:
+      - descr: PeerTube Holzbearbeitungs-Video
+    - name: Filme/Serien
+      image:
+      - descr: Cover von 23 vermischt mit Hackers
+    - name: Reportagen
+      image:
+      - descr: Cover von "All Creatures Welcome"
+  - name: Chaoten-Aktivitäten
+    cards:
+    - name: offener Tag
+    - name: Meetups / Assemblies 
+    - name: Saugen
+      image:
+      - descr: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
+    - name: Cloudexorzismus
 
 modifier_groups:
   - name: Material

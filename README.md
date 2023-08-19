@@ -48,7 +48,6 @@ Karten enthalten folgende Informationen:
 - Icon der Hobby-Gruppe
 - Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
 - Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
-- Werte
 
 ### Werte
  * Die Werte beziehen sich immer auf die Person, die die Karte spielt
@@ -62,9 +61,6 @@ Karten enthalten folgende Informationen:
 - Die Werte beziehen sich immer auf die Person, die die Karte spielt
 - Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
 - Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
-- Alles hat einen Wert zwischen 23 und 42
-  - 23 und 42 gewinnen immer, 23>42
-  - Manchmal einheitenlose Zahlen
 - Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
 - Hobby-Hoppability (Commitment, Investistion, Lernkurve): höher ist besser
@@ -109,16 +105,8 @@ Karten enthalten folgende Informationen:
    - talks ansehen
    - workshops besuchen
    - Baden gehen
- - Chaoten-Aktivitäten
-   - offener Tag im Hackerspace
-   - Hacker meetups / assemblies 
-   - Saugen / Sharing is caring
-   - Cloudexorzismus
  - kinky geeks
  - kochen (kochen und würzen. Scharfes essen)
- - Spiele
-   - brettspiele
-   - kartenspiele
  - Luft-Sportarten
    - Acro-GS
    - "Normal" gleitschirmfliegen
@@ -136,16 +124,9 @@ Karten enthalten folgende Informationen:
  - campen / reisen
  - Den planeten verbessern, was für die Allgemeinheit tun
  - Medienkonsum
-   - holzbearbeitungs Videos anschauen
-   - Into the Rabbithole
-   - Serien schauen
-   - vorträge schauen
-   - lesen, Hörbücher (zusammen) hören
    - podcasts hören
-   - wikipedia
+ - open knowledge
  - künstliche Intelligenz (bildgenerierung, sprachmodelle)
- - 3d drucken
- - holzwerken
  - kampfsport
    - aikido
    - tae Kwon do
@@ -165,4 +146,3 @@ Karten enthalten folgende Informationen:
   - Open source
   - Öffentlichkeitsarbeit
   - organisieren
-  -
