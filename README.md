@@ -26,6 +26,7 @@ Quartett mit weiteren Spielmechaniken
 - Als nächstes ist die Kreatur an der Reihe, die nun weniger Karten hat
 
 ### def plenum():
+
 - Ab drei Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen, aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
 - Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
@@ -50,6 +51,7 @@ Karten enthalten folgende Informationen:
 - Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
 
 ### Werte
+
  * Die Werte beziehen sich immer auf die Person, die die Karte spielt
  * Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
  * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
@@ -95,6 +97,7 @@ Karten enthalten folgende Informationen:
 - Anti Indikationen entfallen
 
 ## Hobbies
+
  - Nachtbeschäftigung / Party
    - Karaoke
    - Tanzen

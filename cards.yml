@@ -21,132 +21,132 @@ metric_metadata:
 hobby_groups:
   - name: Hacken
     icon:
-    - descr: null
-    # - path: null
-    - url: null
+      - descr: null
+      # - path: null
+      - url: null
     cards:
-    - name: Hardware Hacking
-      image:
-      - descr: auseinander gebauter Leihroller    
-    - name: Zerforschen
-    - name: Schließsport
-      image:
-      - descr: Schloss und Dietrich
-    - name: Foodhacking
+      - name: Hardware Hacking
+        image:
+          - descr: auseinander gebauter Leihroller
+      - name: Zerforschen
+      - name: Schließsport
+        image:
+          - descr: Schloss und Dietrich
+      - name: Foodhacking
   - name: Maken
     cards:
-    - name: Löten
-    - name: Drucken - in 3D!
-    - name: Holzwerken
+      - name: Löten
+      - name: Drucken - in 3D!
+      - name: Holzwerken
   - name: Spiele
     cards:
-    - name: Rollenspiel
-      image:
-      - descr: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
-    - name: Brettspiele
-      image:
-      - descr: Go / Baduk
-    - name: Videospiele
-      image:
-      - descr: Mensch mit VR-Brille auf dem Kopf
-    - name: Kartenspiele
-      image:
-      - descr: Bild der Karte (inkl. dem Bild im Bild im Bild...)
+      - name: Rollenspiel
+        image:
+          - descr: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
+      - name: Brettspiele
+        image:
+          - descr: Go / Baduk
+      - name: Videospiele
+        image:
+          - descr: Mensch mit VR-Brille auf dem Kopf
+      - name: Kartenspiele
+        image:
+          - descr: Bild der Karte (inkl. dem Bild im Bild im Bild...)
   - name: Räder
     enable_by_default: false
     cards:
-    - name: Einrad
-    - name: Zweirad
-      image: Generisches Fahrrad
-    - name: Mehrrad
-      image:
-      - descr: Dreirad
-    - name: Vielrad
-      image:
-      - descr: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
-      attributes:
-      - Nerdscore: Multidimensionales Wesen
-      - Risiko: lieber nicht regelmäßig machen
-      - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
+      - name: Einrad
+      - name: Zweirad
+        image: Generisches Fahrrad
+      - name: Mehrrad
+        image:
+          - descr: Dreirad
+      - name: Vielrad
+        image:
+          - descr: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
+        attributes:
+          - Nerdscore: Multidimensionales Wesen
+          - Risiko: lieber nicht regelmäßig machen
+          - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
   - name: besondere Räder
     cards:
-    - name: Ballaballa
-    - name: Buggy-Kiten
-    - name: Longboard
+      - name: Ballaballa
+      - name: Buggy-Kiten
+      - name: Longboard
   - name: Medienkonsum
     cards:
-    - name: Into the Rabbithole
-      image:
-      - descr: weißer Hase
-    - name: Bücher
-      image:
-      - descr: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
-    - name: Online-Tutorials/Workshops/Talks
-      image:
-      - descr: PeerTube Holzbearbeitungs-Video
-    - name: Filme/Serien
-      image:
-      - descr: Cover von 23 vermischt mit Hackers
-    - name: Reportagen
-      image:
-      - descr: Cover von "All Creatures Welcome"
+      - name: Into the Rabbithole
+        image:
+          - descr: weißer Hase
+      - name: Bücher
+        image:
+          - descr: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
+      - name: Online-Tutorials/Workshops/Talks
+        image:
+          - descr: PeerTube Holzbearbeitungs-Video
+      - name: Filme/Serien
+        image:
+          - descr: Cover von 23 vermischt mit Hackers
+      - name: Reportagen
+        image:
+          - descr: Cover von "All Creatures Welcome"
   - name: Chaoten-Aktivitäten
     cards:
-    - name: offener Tag
-    - name: Meetups / Assemblies 
-    - name: Saugen
-      image:
-      - descr: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
-    - name: Cloudexorzismus
+      - name: offener Tag
+      - name: Meetups / Assemblies
+      - name: Saugen
+        image:
+          - descr: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
+      - name: Cloudexorzismus
 
 modifier_groups:
   - name: Material
     cards:
-    - name: Holz
-      image:
-      - descr: null
-      # - path: null
-      - url: null
-    - name: Metall
-    - name: Plastik
+      - name: Holz
+        image:
+          - descr: null
+          # - path: null
+          - url: null
+      - name: Metall
+      - name: Plastik
   - name: Mit Droge in Konsumform
     cards:
-    - name: Bier / Sekt
-    - name: Cocktail
-    - name: Vaporizer
-    - name: Tüte
-    - name: Tschunk
-    - name: Whisky
+      - name: Bier / Sekt
+      - name: Cocktail
+      - name: Vaporizer
+      - name: Tüte
+      - name: Tschunk
+      - name: Whisky
   - name: Elemente
     cards:
-    - name: Feuer
-    - name: Wasser
-    - name: Erde
-    - name: Luft
+      - name: Feuer
+      - name: Wasser
+      - name: Erde
+      - name: Luft
   - name: Präsenz
     cards:
-    - name: online
-    - name: offline
-    - name: remote
-    - name: physisch
+      - name: online
+      - name: offline
+      - name: remote
+      - name: physisch
   - name: Geschwindigkeit
     cards:
-    - name: beschleunigt
-    - name: verlangsamt
+      - name: beschleunigt
+      - name: verlangsamt
   - name: Größe
     cards:
-    - name: vergrößert
-    - name: verleinert
+      - name: vergrößert
+      - name: verleinert
   - name: Personenanzahl
     cards:
-    - name: mehr Menschen
-    - name: weniger Menschen
+      - name: mehr Menschen
+      - name: weniger Menschen
   - name: Ort
     cards:
-    - name: Hackerevent
-      image:
-      - url: null
-      - descr: Bild vom Camp/Kongress
-    - name: Hackerspace
-    - name: Natur
-    - name: Zuhause
+      - name: Hackerevent
+        image:
+          - url: null
+          - descr: Bild vom Camp/Kongress
+      - name: Hackerspace
+      - name: Natur
+      - name: Zuhause
