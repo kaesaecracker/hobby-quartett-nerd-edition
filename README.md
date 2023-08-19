@@ -30,14 +30,15 @@ Quartett mit weiteren Spielmechaniken
 - Ab drei Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen, aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
 - Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
-### Sonderregeln
+### Regeln - RFC
 
-Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
+Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
 
+- Die Hobbies der herausfordernden und herausgeforderten Kreatur werden nicht gezeigt. Die herausfordernde Kreatur nennt einen konkreten Wert, um den es Folge geht.
 - Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
 - Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 - Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
-- Bei Werten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
+- Bei Aspekten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
 - Spielen ohne Modifier
 - Spielen mit globalem, zufälligen Modifier nach dem Legen der Hobbies
 
@@ -50,10 +51,17 @@ Karten enthalten folgende Informationen:
 - Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
 - Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
 
-### Werte
+### Aspekte
+ * Die Aspekte beziehen sich immer auf die Person, die die Karte spielt
+ * Manche Aspektefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+ * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
+ * Alles hat einen Wert zwischen 23 und 42
+   * 23 und 42 gewinnen immer, 23>42
+   * Manchmal einheitenlose Zahlen
+ * Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
-- Die Werte beziehen sich immer auf die Person, die die Karte spielt
-- Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+- Die Aspekte beziehen sich immer auf die Person, die die Karte spielt
+- Manche Werte der Aspekte sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
 - Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
 - Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
