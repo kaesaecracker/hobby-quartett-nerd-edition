@@ -3,9 +3,6 @@ aspect_metadata:
     name: Hoppability
     is_lower_better: false
     description: Commitment, Investistion, Lernkurve
-  #- name: Nerdscore
-  #  is_lower_better: false
-  #  description: Wie nerdig ist es? Welches Soziotop trifft man bei Ausübung?
   risk:
     name: Risiko
     is_lower_better: true
@@ -13,15 +10,20 @@ aspect_metadata:
   use:
     name: Nutzen
     is_lower_better: false
-    description: Wie nützlich sind die Skills, die man trainiert, im restlichen Leben? Mögliche positive gesundheitliche, rechtliche oder soziale Folgen
+    description: Wie nützlich sind die beim Ausüben des Hobbys antrainierten Skills im restlichen Leben? Mögliche positive gesundheitliche, rechtliche oder soziale Folgen
   mobility:
     name: Mobilität
     is_lower_better: true
     description: Packmaß, Gewicht der Ausrüstung
   speed:
-    name: Geschwindigkeit
+    name: Adrenalinausschütung
     is_lower_better: false
-    description: Von der ausübenden Person beeinflussbare Geschwindigkeit
+    description: Wie nervenaufreibend / aufregend ist das Haobby?
+  popularity:
+    name: Verbreitung
+    is_lower_better: true
+    descriptiom: Wie ausgefallen ist das Hobby? Wie viele Menschen üben das Hobby aus?
+
 
 hobby_groups:
   - name: Hacken
@@ -30,7 +32,7 @@ hobby_groups:
     cards:
       - name: Hardware Hacking
         image:
-          alt: auseinander gebauter Leihroller
+          alt: auseinandergebauter Leihroller
         aspects:
           hoppability: 5
           risk: Angebrannter Finger
@@ -159,14 +161,10 @@ modifier_groups:
       - name: offline
       - name: remote
       - name: physisch
-  - name: Geschwindigkeit
-    cards:
-      - name: beschleunigt
-      - name: verlangsamt
   - name: Größe
     cards:
-      - name: vergrößert
-      - name: verleinert
+      - name: um eine Zehnerpotenz beschleunigt / vergrößert
+      - name: um eine Zehnerpotenz verlangsamt / verleinert
   - name: Personenanzahl
     cards:
       - name: mehr Menschen
@@ -182,8 +180,8 @@ modifier_groups:
   - name: Umkehrung
     cards:
       - name: besser ist schlechter / schlechter ist besser
-      - name: Anti Indikationen entfallen
-      - name: Hobbies werden getauscht!
+      - name: Persönliche Einschränkungen entfallen, die einem am Ausüben des Hobbys beeinträchten
+      - name: Die Hobbykarten der beiden Parteien werden getauscht
   - name: Musik
     cards:
       - name: mit mehr Musik

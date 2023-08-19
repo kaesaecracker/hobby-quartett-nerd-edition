@@ -22,35 +22,29 @@ Quartett mit weiteren Spielmechaniken
 ### def round()
 
 - Die herausfordernde Kreatur fordert eine beliebige Spielerperson heraus.
-- Die herausfordernde Kreatur wählt eine Hobbykarte aus ihrem Deck und nennt einen Aspekt.
+- Die herausfordernde Kreatur wählt eine Hobbykarte aus ihrem Deck, zeigt sie aber noch nicht und nennt einen Aspekt.
 - Die herausgeforderte Kreatur wählt eine Hobbykarte aus ihrem Deck.
 - Die Hobbykarten werden offengelegt und der Aspekt diskutiert.
 
 #### def loop()
 
-- Modifikatoren können nun nach Belieben eingesetzt werden, auch vom Plenum. Sie gelten für diese Runde ab Aussprache für die Zukunft.
-- Der Aspektevergleich wird entschieden.
+- Modifikatoren können von allen Spielenden nach Belieben eingesetzt werden, auch vom Plenum. Sie gelten für diese Runde ab Aussprache für die Zukunft.
+- Es wird ein Konsenz gebildet, wer in diesem Aspekt gewonnen hat.
 - Hat eine Kreatur drei Aspekte gewonnen, darf sie beide Hobbykarten auf ihren Repertoirehaufen legen.
-- Hat keine der beiden Spielenden drei Aspekte gewonnen, erfolgt die Nennung des nächsten Aspekts in Abwechslung.
+- Hat noch keine der beiden Spielenden drei Aspekte gewonnen, wird darf der nächste Aspekt vom der Kreatur gewählt werden, die ihn beim vorherigen Mal nicht wählen dürfte. 
 
 #### def next_round()
 
-- Die Spielerperson mit den wenigsten Hobbies in ihrem Repertoire darf die nächste Runde gebinnen und
-
-- Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
-- Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
-- Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
-- Bei Aspekten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
-- Spielen ohne Modifikatoren
-- Spielen mit globalem, zufälligen Modifikator nach dem Legen der Hobbies
+- Die Spielerperson mit den wenigsten Hobbies in ihrem Repertoire darf die nächste Runde starten.
 
 #### def discussion()
 
 - Beide Spieler versuchen den anderen zu überzeugen, warum ihr Hobby besser ist
 - Wird keine Einigung erzielt, wird das Plenum aufgerufen
+- Bei der Diskussion kann der Fokus auf einen bestimmten Aspekt gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 - Die Kreatur, deren Hobby als besser/passender eingestuft wurde bekommt die gespielten Karten auf die Hand
-- Hat eine Kreatur kein Hobby mehr auf der Hand, scheidet diese aus. Hobbylose Kreaturen sind weiterhin teil des Plenums.
-- Als nächstes ist die Kreatur an der Reihe, die nun weniger Karten hat
+- Hat eine Kreatur kein Hobby mehr auf der Hand, scheidet diese aus. Hobbylose Kreaturen sind weiterhin Teil des Plenums.
+- Die nächste Runde eröffnet die Kreatur, die die wenigsten Hobbykarten im Repertoire hat. Haben mehrere Spielende gleich wenig Repertoirekarten, entscheidet das Plenum.
 
 ### def plenum():
 
@@ -60,6 +54,11 @@ Quartett mit weiteren Spielmechaniken
 ## RFCs
 
 Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
+
+- Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
+- Bei Aspekten gewinnen 23, 42 und anderen in eurer Community besonderen Zahlen immer. 23>42.
+- Spielen ohne Modifikatoren
+- Spielen mit globalem, zufälligen Modifikator nach dem Legen der Hobbies
 
 ## Aspekte
 
