@@ -23,7 +23,7 @@ Quartett mit weiteren Spielmechaniken
 - Als nächstes ist die Kreatur an der Reihe, die nun weniger Karten hat
 
 ### def plenum():
-- ab 3 Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
+- Ab drei Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen, aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
 - Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
 ### Sonderregeln
@@ -39,16 +39,16 @@ Karten enthalten folgende Informationen:
 - Icon der Hobby-Gruppe
 - Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
 - Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
-- Wertungen
+- Werte
 
-## Werte
- * Manchmal stehen einheiten drauf, manchmal aber nur text
- * Vergleich im plenum wenn die zwei relevanten personen nicht einig werden
- * alles hat einen Wert zwischen 23-42
+### Werte
+ * Die Werte beziehen sich immer auf die Person, die die Karte spielt
+ * Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+ * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
+ * Alles hat einen Wert zwischen 23 und 42
    * 23 und 42 gewinnen immer, 23>42
-   * Manchmal einheitenlose zahlen
- * Skalen umrechnen lassen!
- * alles ist relativ zu der jeweiligen person
+   * Manchmal einheitenlose Zahlen
+ * Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
  * Hobby-Hoppability (Commitment, Investistion, Lernkurve): höher ist besser
    * Wie schwierig /langwierig zu lernen (für mich, recherchieren)
