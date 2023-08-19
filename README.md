@@ -25,9 +25,8 @@ Quartett mit weiteren Spielmechaniken
 - Hat eine Kreatur kein Hobby mehr auf der Hand, scheidet diese aus. Hobbylose Kreaturen sind weiterhin teil des Plenums.
 - Als nächstes ist die Kreatur an der Reihe, die nun weniger Karten hat
 
-### def plenum()
-
-- ab 3 Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
+### def plenum():
+- Ab drei Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen, aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
 - Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
 ### Sonderregeln
@@ -52,6 +51,13 @@ Karten enthalten folgende Informationen:
 - Werte
 
 ### Werte
+ * Die Werte beziehen sich immer auf die Person, die die Karte spielt
+ * Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
+ * Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
+ * Alles hat einen Wert zwischen 23 und 42
+   * 23 und 42 gewinnen immer, 23>42
+   * Manchmal einheitenlose Zahlen
+ * Die Spielenden müssen die Skalen bei Bedarf umrechnen
 
 - Die Werte beziehen sich immer auf die Person, die die Karte spielt
 - Manche Wertefelder sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
