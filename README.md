@@ -2,32 +2,44 @@
 
 Quartett mit weiteren Spielmechaniken
 
-## Regelideen
-
-### init()
+## rules.py
+- Bei Uneinigkeiten bei den Regeln während des Spiels wird im Plenum entschieden. Direkt betroffene Kreaturen haben in diesem Fall kein Stimmrecht.
+- 
+### def init():
 - Spiel mit mindestens 2 Kreaturen (bei 3 Kreaturen besteht das Plenum aus einer Person, bei weniger Spielern entfällt das Plenum)
 - Es gibt einen Ziehstapel für Hobbies und einen für Mods
 - Alle Spieler beginnen mit X Hobbies und Y Mods
 - Gemeinsam wird entschieden, wer beginnt (im Zweifelsfall einfache Mehrheit)
 
-### loop()
+### def loop():
 - Die Kreatur, die aktuell am Zug ist fordert eine andere Kreatur zur Diskussion heraus
-- Beide Kreaturen legen ein Hobby verdeckt vor sich und drehen sie gleichzeitig um
-- Beide Kreaturen erklären, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt, da sie bereits Zeit zum Überlegen hatte
-- Die herausfordernde Kreatur legt einen Mod offen aus. Die herausgeforderte Kreatur antwortet nach kurzer Bedenkzeit ebenfalls mit einem Mod
+- Beide Kreaturen legen je ein Hobby verdeckt vor sich und drehen sie gleichzeitig um
+- Beide Kreaturen erklären, warum ihr Hobby gut ist (ohne direkten Bezug auf das andere Hobby). Die herausfordernde Kreatur beginnt, da sie bereits Zeit zum Überlegen hatte.
+- Die herausfordernde Kreatur legt einen Mod offen aus. Die herausgeforderte Kreatur antwortet nach kurzer Bedenkzeit ebenfalls mit einem Mod. 
 - Beide Spieler versuchen den anderen zu überzeugen, warum ihr Hobby besser ist
 - Wird keine Einigung erzielt, wird das Plenum aufgerufen
+- Die Kreatur, deren Hobby als besser/passender eingestuft wurde bekommt die gespielten Karten auf die Hand
+- Hat eine Kreatur kein Hobby mehr auf der Hand, scheidet diese aus. Hobbylose Kreaturen sind weiterhin teil des Plenums. 
+- Als nächstes ist die Kreatur an der Reihe, die nun weniger Karten hat
 
-### plenum()
-- Das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
+### def plenum():
 - ab 3 Kreaturen im Plenum wird das safe-to-try-prinzip angewendet (nicht alle müssen zustimmen aber keiner darf dagegen sein), ansonsten gilt Konsensprinzip
-
+- Wenn im Plenum entschieden werden muss, welches Hobby das bessere ist: das Plenum stellt Fragen, die die Kreaturen beantworten müssen. Die Fragen können an einzelne oder beide Kreaturen gestellt werden.
 
 ### Sonderregeln
 Optionale Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann
 
 - Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
 - Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
+- Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
+
+## Karten
+Karten enthalten folgende Informationen:
+- Name des Hobbies (darf beliebig interpretiert werden)
+- Icon der Hobby-Gruppe
+- Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
+- Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
+- Wertungen
 
 ## Werte
  * Manchmal stehen einheiten drauf, manchmal aber nur text
