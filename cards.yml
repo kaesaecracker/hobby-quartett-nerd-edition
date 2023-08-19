@@ -95,6 +95,17 @@ hobby_groups:
       - name: Fermentieren
       - name: Kochen
       - name: Backen
+  - name: Kampfsport
+    cards:
+      - name: Waffenloser Kampfsport
+      - name: Stockkampf / schwertkampf
+      - name: Bogenschießen
+  - name: Gemeinnützigkeit
+    cards:
+      - name: Open knowledge
+      - name: Politisches Engagement
+      - name: Open source
+      - name: Organisieren
 
 modifier_groups:
   - name: Material
@@ -140,7 +151,7 @@ modifier_groups:
     cards:
       - name: Hackerevent
         image:
-          -descr: Bild vom Camp/Kongress
+          - descr: Bild vom Camp/Kongress
       - name: Hackerspace
       - name: Natur
       - name: Zuhause
@@ -149,9 +160,3 @@ modifier_groups:
       - name: besser ist schlechter / schlechter ist besser
       - name: Anti Indikationen entfallen
       - name: Hobbies werden getauscht!
-  - name: Gemeinnützigkeit
-    cards:
-      - name: Open knowledge
-      - name: politisches engagement
-      - name: Open source
-      - name: organisieren

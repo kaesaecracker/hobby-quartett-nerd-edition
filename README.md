@@ -79,6 +79,7 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
 - mit Katzenohren
 - blinky
 - frei (wie Bier / wie Freiheit)
+- mit mehr Musik / mit weniger Musik
 
 ## Hobby-Karten
 
@@ -107,27 +108,18 @@ Karten enthalten folgende Informationen:
 
 ### Sportideen
 
- - Luft-Sportarten
-   - Acro-GS
-   - "Normal" gleitschirmfliegen
-   - Drachenfliegen
-   - Hike & Fly
- - Wasser-Sportarten
-   - kitesurfen
-   - Tauchen
- - Outdoor
-   - Bodenkiten
-   - Slackline
-   - Bouldern
- - jonglieren
- - Kraftsport
- - kampfsport
-   - aikido
-   - tae Kwon do
-   - kickboxen
-   - kung fu
-   - eurythmie
-   - eskrima
-   - stockkampf
-   - schwertkampf
-   - bogenschießen
+- Luft-Sportarten
+  - Acro-GS
+  - "Normal" gleitschirmfliegen
+  - Drachenfliegen
+  - Hike & Fly
+- Wasser-Sportarten
+  - kitesurfen
+  - Tauchen
+- Outdoor
+  - Bodenkiten
+  - Slackline
+  - Bouldern
+- jonglieren
+- Kraftsport
+- Yoga
