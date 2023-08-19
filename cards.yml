@@ -26,12 +26,10 @@ hobby_groups:
       - url: null
     cards:
       - name: Hardware Hacking
-        image:
-          - descr: auseinander gebauter Leihroller
+        description: auseinander gebauter Leihroller
       - name: Zerforschen
       - name: Schließsport
-        image:
-          - descr: Schloss und Dietrich
+        description: Schloss und Dietrich
       - name: Foodhacking
   - name: Maken
     cards:
@@ -41,17 +39,13 @@ hobby_groups:
   - name: Spiele
     cards:
       - name: Rollenspiel
-        image:
-          - descr: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
+        description: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
       - name: Brettspiele
-        image:
-          - descr: Go / Baduk
+        description: Go / Baduk
       - name: Videospiele
-        image:
-          - descr: Mensch mit VR-Brille auf dem Kopf
+        description: Mensch mit VR-Brille auf dem Kopf
       - name: Kartenspiele
-        image:
-          - descr: Bild der Karte (inkl. dem Bild im Bild im Bild...)
+        description: Bild der Karte (inkl. dem Bild im Bild im Bild...)
   - name: Räder
     enable_by_default: false
     cards:
@@ -59,11 +53,9 @@ hobby_groups:
       - name: Zweirad
         image: Generisches Fahrrad
       - name: Mehrrad
-        image:
-          - descr: Dreirad
+        description: Dreirad
       - name: Vielrad
-        image:
-          - descr: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
+        description: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
         aspects:
           - Nerdscore: Multidimensionales Wesen
           - Risiko: lieber nicht regelmäßig machen
@@ -76,20 +68,15 @@ hobby_groups:
   - name: Medienkonsum
     cards:
       - name: Into the Rabbithole
-        image:
-          - descr: weißer Hase
+        description: weißer Hase
       - name: Bücher
-        image:
-          - descr: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
+        description: eBook-Reader mit geöffnetem Hörbuch-Player mit einem lustigen nerdigen Buchtitel
       - name: Online-Tutorials/Workshops/Talks
-        image:
-          - descr: PeerTube Holzbearbeitungs-Video
+        description: PeerTube Holzbearbeitungs-Video
       - name: Filme/Serien
-        image:
-          - descr: Cover von 23 vermischt mit Hackers
+        description: Cover von 23 vermischt mit Hackers
       - name: Reportagen
-        image:
-          - descr: Cover von "All Creatures Welcome"
+        description: Cover von "All Creatures Welcome"
   - name: Alles für den Club!
     cards:
       - name: offener Tag
@@ -99,8 +86,7 @@ hobby_groups:
   - name: Chaoten-Aktivitäten
     cards:
       - name: Saugen
-        image:
-          - descr: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
+        description: LimeWire-Screenshot mit "Sharing is caring"-Schrift in Impact-Font
       - name: Cloudexorzismus
       - name: Buzzword-Bingo
   - name: Nahrung
@@ -114,10 +100,7 @@ modifier_groups:
   - name: Material
     cards:
       - name: Holz
-        image:
-          - descr: null
-          # - path: null
-          - url: null
+        description: null
       - name: Metall
       - name: Plastik
   - name: Mit Droge in Konsumform
@@ -155,9 +138,7 @@ modifier_groups:
   - name: Ort
     cards:
       - name: Hackerevent
-        image:
-          - url: null
-          - descr: Bild vom Camp/Kongress
+        description: Bild vom Camp/Kongress
       - name: Hackerspace
       - name: Natur
       - name: Zuhause
