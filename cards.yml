@@ -50,12 +50,15 @@ hobby_groups:
     enable_by_default: false
     cards:
       - name: Einrad
+        image: images/unicycle.png
       - name: Zweirad
-        image: Generisches Fahrrad
+        image: images/mountain-biker.png
       - name: Mehrrad
         description: Dreirad
+        image: images/buggy.jpeg
       - name: Vielrad
         description: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
+        image: images/many-wheeled-vehicle.png
         aspects:
           - Nerdscore: Multidimensionales Wesen
           - Risiko: lieber nicht regelmäßig machen
