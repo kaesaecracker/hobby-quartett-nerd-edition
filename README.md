@@ -34,10 +34,20 @@ Quartett mit weiteren Spielmechaniken
 
 Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
 
-- Die Karten der herausfordernden und herausgeforderten Kreatur werden nicht gezeigt.
-- Herausfordernde und herausgeforderte Kreatur ziehen je eine Modifierkarte, die offengelegt wird.
-- Die Kreaturen nennen abwechselnd einen konkreten Aspekt, dessen Werte miteinander verglichen werden.
-- Einer der Werte gewinnt. Bei Uneindeutigkeit wird das Plenum befragt.
+### Prerequsites
+
+- Es gibt einen Stapel Modifier Karten und einen Hobbykartenstapel.
+- Aus dem Hobbykartestapel bekommen alle Spielende 5 Karten, die nur sie sehen sollen.
+- Aus dem Modifierstapel bekommen alle Spielende 3 Modifierkarten (offen).
+- Bestimmung, wie begonnen wird wie oben. Es gibt eine herausfordernden und herausgeforderten Kreatur.
+
+### Round
+
+- Die herausfordernde Kreatur wählt eine Hobbykarte aus ihrem Deck und nennt einen Einstiegs-Aspekt.
+- Die herausgeforderte Kreatur wählt eine Hobbykarte aus ihrem Deck.
+- Die Hobbykarten werden offengelegt.
+- Modifier können nun nach Belieben eingesetzt werden. Sie gelten für diese Runde ab Aussprache für die Zukunft.
+- Einer der Spielenden gewinnt den Aspekt. Bei Uneindeutigkeit wird das Plenum befragt.
 - Beide Spielenden können pro Hobbykarte einen der beiden Modifier einsetzten, der sich nun auf den Aspekt beider Hobbykarten bezieht. Nach Gebrauch kommt die Modifierkarte zurück in den Stapel.
 - Die Nennung eines Aspekts erfolgt abwechlend, dabei beginnt die herausfodernde Kreatur.
 - Hat eine Kreatur drei Aspekte gewonnen, bekommt sie die Hobbykarte der anderen Kreatur.
