@@ -1,4 +1,4 @@
-metric_metadata:
+aspect_metadata:
   - name: Hobby-Hoppability
     is_lower_better: false
     descr: Commitment, Investistion, Lernkurve
@@ -64,7 +64,7 @@ hobby_groups:
       - name: Vielrad
         image:
           - descr: Male mir ein Fahrrad mit ganz vielen Rädern zum Reisen zwischen Dimensionen
-        attributes:
+        aspects:
           - Nerdscore: Multidimensionales Wesen
           - Risiko: lieber nicht regelmäßig machen
           - Mobilität: Mehr Räder reduzieren die Reibung im Wurmloch
