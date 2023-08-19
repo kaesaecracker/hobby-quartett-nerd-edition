@@ -87,9 +87,9 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
 - gelten für beide seiten "global"?
 
 ### Ideen
+
 - mit Katzenohren
 - frei (wie Bier / wie Freiheit)
-
 
 ## Hobby-Karten
 
