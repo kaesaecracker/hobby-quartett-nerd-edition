@@ -34,7 +34,11 @@ Quartett mit weiteren Spielmechaniken
 
 Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Einige davon stehen in Konflikt zueinander
 
-- Die Hobbies der herausfordernden und herausgeforderten Kreatur werden nicht gezeigt. Die herausfordernde Kreatur nennt einen konkreten Wert, um den es Folge geht.
+- Die Karten der herausfordernden und herausgeforderten Kreatur werden nicht gezeigt. Die Kreaturen nennen einen konkreten Aspekt, dessen Werte miteinander verglichen werden.
+- Die Nennung eines Aspekts erfolgt abwechlend, dabei beginnt die herausfodernde Kreatur.
+- Hat eine Kreatur drei Aspekte gewonnen, bekommt sie die Hobbykarte der anderen Kreatur.
+- Jede spielende Person hat einen Stapel gewonnener Hobbykarten, die am Ende gezählt werden.
+- Die Kreatur mit den meisten Hobbies hat gewonnen.
 - Wenn die Hobbies gut zusammen passen, können die Spieler die Karten auch tauschen
 - Bei der Diskussion kann der Fokus auf eins der Attribute gelegt werden. Dafür muss die herausfordernde Kreatur das Hobby offen legen und das Attribut nennen, bevor die herausgeforderte Kreatur ihr Hobby auswählt.
 - Stiche statt bis zum bitteren Ende: Es werden alle Hobbies und Modifikatoren ausgeteilt. Die Kreatur, deren Hobby als besser/passender eingestuft wurde, legt die gespielten Karten vor sich auf einen Stapel, statt sie auf die Hand zu nehmen. Später wird gezählt, wer die meisten Karten hat.
@@ -58,12 +62,7 @@ Karten enthalten folgende Informationen:
  * Alles hat einen Wert zwischen 23 und 42
    * 23 und 42 gewinnen immer, 23>42
    * Manchmal einheitenlose Zahlen
- * Die Spielenden müssen die Skalen bei Bedarf umrechnen
-
-- Die Aspekte beziehen sich immer auf die Person, die die Karte spielt
-- Manche Werte der Aspekte sind leer, manche mit Zahlen mit und ohne Einheiten, manchmal ist der Wert in Textform beschrieben
-- Vergleich im Plenum wenn die zwei relevanten Personen nicht einig werden
-- Die Spielenden müssen die Skalen bei Bedarf umrechnen
+ * Die Spielenden müssen Einheiten bei Bedarf in die gleiche Einheit umrechnen
 
 - Hobby-Hoppability (Commitment, Investistion, Lernkurve): höher ist besser
   - Wie schwierig /langwierig zu lernen (für mich, recherchieren)
