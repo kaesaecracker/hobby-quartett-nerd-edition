@@ -82,14 +82,9 @@ Zu testende Zusatzregeln, auf die sich vor Spielbeginn geeinigt werden kann. Ein
   - Geeky vs. Populär?
   - Welches Soziotop trifft man bei Ausübung?
 
-## Tie Breaker / Modifikatoren
+## Modifikatoren
 
-- gelten für beide seiten "global"?
-
-### Ideen
-
-- mit Katzenohren
-- frei (wie Bier / wie Freiheit)
+- Gelten für beide Hobbykarten auf allen Aspekten innerhalb einer Runde
 
 ## Hobby-Karten
 
@@ -97,7 +92,7 @@ Karten enthalten folgende Informationen:
 
 - Name des Hobbies (darf beliebig interpretiert werden)
 - Icon der Hobby-Gruppe
-- Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat)
+- Nummer in der Gruppe und Anzahl der Karten in der Gruppe (damit man weiß, ob man alle hat) 
 - Bild mit Untertitel: gibt Standardinterpretation vor, die jedoch ignoriert werden darf
 
 ### Ideen
