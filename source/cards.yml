@@ -39,15 +39,19 @@ hobby_groups:
           risk: Angebrannter Finger
           use: hoch!
       - name: Zerforschen
-        alt:
+        image:
+          alt:
           src: images/zerforschung.png
       - name: Schließsport
-        icon:
-          - alt: Schloss und Dietrich
+        image:
+          alt: Schloss und Dietrich
+          src: images/lockpicking.png
       - name: Foodhacking
   - name: Maken
     cards:
       - name: Löten
+        image:
+          src: images/löten.png
       - name: Drucken - in 3D!
       - name: Holzwerken
   - name: Spiele
