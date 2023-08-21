@@ -33,11 +33,14 @@ hobby_groups:
       - name: Hardware Hacking
         image:
           alt: auseinandergebauter Leihroller
+          src: images/opened-rental-scooter.png
         aspects:
           hoppability: 5
           risk: Angebrannter Finger
           use: hoch!
       - name: Zerforschen
+        alt:
+          src: images/zerforschung.png
       - name: Schließsport
         icon:
           - alt: Schloss und Dietrich
