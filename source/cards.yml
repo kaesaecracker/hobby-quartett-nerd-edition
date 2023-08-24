@@ -16,7 +16,7 @@ aspect_metadata:
     is_lower_better: true
     description: Packmaß, Gewicht der Ausrüstung
   speed:
-    name: Adrenalinausschütung
+    name: Adrenalin
     is_lower_better: false
     description: Wie nervenaufreibend / aufregend ist das Haobby?
   popularity:

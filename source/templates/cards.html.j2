@@ -28,18 +28,20 @@
 </tr>
 {%- endmacro %}
 
-{% macro hobby_aspects(hobby) -%}
-{% if hobby.aspects is defined %}
+{% macro hobby_body(hobby) -%}
 <div class="card-body">
-    <table class="table w-100">
-        {% for aspect_key, aspect_data in aspect_metadata | dictsort %}
-        {{hobby_aspect(aspect_key, aspect_data, hobby)}}
-        {% endfor %}
-    </table>
+    {% if hobby.aspects is defined %}
+    <div>
+        <table class="table w-100" style="word-wrap: normal">
+            {% for aspect_key, aspect_data in aspect_metadata | dictsort %}
+            {{hobby_aspect(aspect_key, aspect_data, hobby)}}
+            {% endfor %}
+        </table>
+    </div>
+    {% else %}
+    <p>Aspects fehlen!</p>
+    {% endif %}
 </div>
-{% else %}
-<p>Aspects fehlen!</p>
-{% endif %}
 {%- endmacro %}
 
 {% macro hobby_image(hobby) -%}
@@ -56,7 +58,7 @@
 </div>
 {%- endmacro %}
 
-{% macro hobby_titlerow(group, hobby, loop) -%}
+{% macro hobby_title(group, hobby, loop) -%}
 <div class="card-title">
     <h5>{{ hobby.name }}</h5>
     <p>{{group.name}} {{loop.index}}/{{loop.length}}</p>
@@ -68,17 +70,15 @@
 
 <body>
     {% for hobby_group in hobby_groups %}
-    <section class="hobby-group container-fluid">
+    <section class="container-fluid">
         <h2>{{ hobby_group.name }}</h2>
 
-        <div class="row row-cols-4 width-100">
+        <div class="row row-cols-auto width-100">
             {% for hobby in hobby_group.cards %}
-            <div class="p-2">
-                <div class="card p-2">
-                    {{ hobby_image(hobby) }}
-                    {{ hobby_titlerow(hobby_group, hobby, loop) }}
-                    {{ hobby_aspects(hobby) }}
-                </div>
+            <div class="col card p-2 m-2 mw-100">
+                {{ hobby_image(hobby) }}
+                {{ hobby_title(hobby_group, hobby, loop) }}
+                {{ hobby_body(hobby) }}
             </div>
             {% endfor %}
         </div>
