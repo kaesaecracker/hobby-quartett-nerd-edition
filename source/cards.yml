@@ -24,7 +24,6 @@ aspect_metadata:
     is_lower_better: true
     descriptiom: Wie ausgefallen ist das Hobby? Wie viele Menschen üben das Hobby aus?
 
-
 hobby_groups:
   - name: Hacken
     icon:
@@ -69,6 +68,7 @@ hobby_groups:
         image:
           alt: Bild der Karte (inkl. dem Bild im Bild im Bild...)
   - name: Räder
+    char: 🛞
     enable_by_default: false
     cards:
       - name: Einrad
@@ -97,6 +97,7 @@ hobby_groups:
       - name: Buggy-Kiten
       - name: Longboard
   - name: Medienkonsum
+    char: 📺
     cards:
       - name: Into the Rabbithole
         image:
@@ -133,6 +134,7 @@ hobby_groups:
       - name: Kochen
       - name: Backen
   - name: Kampfsport
+    char: 🥋
     cards:
       - name: Waffenloser Kampfsport
       - name: Stockkampf / schwertkampf
@@ -144,25 +146,40 @@ hobby_groups:
       - name: Open source
       - name: Organisieren
   - name: Handarbeit
+    char: 🧶
     cards:
       - name: Häkeln
       - name: Stricken
       - name: Origami
       - name: Malen
-  - name: Tiere
+  - name: Haustiere
+    char: 🐈
     cards:
-    - name: Hund
-    - name: Katze
-    - name: Pferd
-    - name: Schlange
+      - name: Hund
+      - name: Katze
+      - name: Pferd
+      - name: Schlange
+      - name: Meerschweinchen
   - name: Musik
+    char: 🎶
     cards:
-    - name: Holzinstrument
-    - name: Metallinstrument
-    - name: Perkussion
-    - name: Synthetische Musik
-      image:
-        alt: Laserharfe
+      - name: Holzinstrument
+      - name: Metallinstrument
+      - name: Perkussion
+      - name: Synthetische Musik
+        image:
+          alt: Laserharfe
+  - name: Wilde Tiere
+    char: 🐗
+    cards:
+      - name: Eichhörnchen
+      - name: Vögel
+        image:
+          alt: Turmfalke
+  - name: Crypto
+    char: ⛏️
+    cards:
+      - name: Rug pull
 
 modifier_groups:
   - name: Material

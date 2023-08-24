@@ -22,7 +22,7 @@
         {% if aspect_key in hobby.aspects %}
         {{ hobby.aspects[aspect_key] }}
         {% else %}
-        <i> missing </i>
+        ⚠️ missing
         {% endif %}
     </td>
 </tr>
@@ -41,6 +41,9 @@
     {% else %}
     <p>Aspects fehlen!</p>
     {% endif %}
+    <div class="card-debug" style="display: none">
+        {{ hobby }}
+    </div>
 </div>
 {%- endmacro %}
 
@@ -48,34 +51,29 @@
 <div class="card-img-top">
     {% if hobby.image is defined %}
     {% if 'src' in hobby.image %}
-    <img src="{{ hobby.image.src }}" class="w-100" alt="{{ hobby.image.alt }}" title="{{ hobby.image.alt }}">
+    <img src="{{ hobby.image.src }}" style="height: 22rem; width: 100%; object-fit: cover;" alt="{{ hobby.image.alt }}"
+        title="{{ hobby.image.alt }}">
     {% else %}
-    <p>Missing image for prompt: {{ hobby.image.alt }}</p>
+    <p>⚠️ Missing image for prompt: {{ hobby.image.alt }}</p>
     {% endif %}
     {% else %}
-    <p>Missing image</p>
+    <p>⚠️ Missing image</p>
     {% endif %}
 </div>
 {%- endmacro %}
 
-{% macro hobby_title(group, hobby, loop) -%}
-<div class="card-title">
-    <h5>{{ hobby.name }}</h5>
-    <p>{{group.name}} {{loop.index}}/{{loop.length}}</p>
-    <div class="card-debug" style="display: none">
-        {{ hobby }}
-    </div>
-</div>
+{% macro hobby_title(hobby_group, hobby, loop) -%}
+<h5 class="card-title">{{loop.index}}/{{loop.length}}{{hobby_group.char}} - {{ hobby.name }}</h5>
 {%- endmacro %}
 
 <body>
     {% for hobby_group in hobby_groups %}
     <section class="container-fluid">
-        <h2>{{ hobby_group.name }}</h2>
+        <h2>{{ hobby_group.char }} {{ hobby_group.name }}</h2>
 
-        <div class="row row-cols-auto width-100">
+        <div class="row row-cols-auto width-100 p-2">
             {% for hobby in hobby_group.cards %}
-            <div class="col card p-2 m-2" style="width: 25em; height: 50em;">
+            <div class="col card p-0 m-2" style="width: 25rem; height: 45rem;">
                 {{ hobby_image(hobby) }}
                 {{ hobby_title(hobby_group, hobby, loop) }}
                 {{ hobby_body(hobby) }}
