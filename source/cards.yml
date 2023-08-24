@@ -162,7 +162,7 @@ hobby_groups:
     - name: Perkussion
     - name: Synthetische Musik
       image:
-      - alt: Laserharfe
+        alt: Laserharfe
 
 modifier_groups:
   - name: Material
