@@ -63,13 +63,17 @@
 {%- endmacro %}
 
 {% macro hobby_title(hobby_group, hobby, loop) -%}
-<h5 class="card-title">{{loop.index}}/{{loop.length}}{{hobby_group.char}} - {{ hobby.name }}</h5>
+<h5 class="card-title">{{loop.index}}/{{loop.length}}{{hobby_group_icon(hobby_group)}} - {{ hobby.name }}</h5>
+{%- endmacro %}
+
+{% macro hobby_group_icon(group) -%}
+{% if 'char' in group %} {{ group.char }} {% else %} � {% endif %}
 {%- endmacro %}
 
 <body>
     {% for hobby_group in hobby_groups %}
     <section class="container-fluid">
-        <h2>{{ hobby_group.char }} {{ hobby_group.name }}</h2>
+        <h2>{{ hobby_group_icon(hobby_group) }} {{ hobby_group.name }}</h2>
 
         <div class="row row-cols-auto width-100 p-2">
             {% for hobby in hobby_group.cards %}
