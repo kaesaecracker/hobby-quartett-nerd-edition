@@ -5,7 +5,8 @@ from yaml import load, Loader
 
 env = Environment(
     loader=PackageLoader("generate_cards"),
-    autoescape=select_autoescape()
+    autoescape=select_autoescape(),
+    trim_blocks=True,
 )
 template = env.get_template("cards.html.j2")
 

@@ -15,4 +15,4 @@ watch-linux:
 
 clean:
 	rm public/cards.html
-	rm -r __pycache__
+	rm -r source/__pycache__

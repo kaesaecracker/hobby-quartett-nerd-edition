@@ -15,9 +15,12 @@
 
 {% macro hobby_aspect(aspect_key, aspect_data, hobby) -%}
 <tr>
-    <td>{{aspect_data.name}}
+    <td>
+        {{aspect_data.name}}
     </td>
-    <td>{% if aspect_key in hobby.aspects %}{{ hobby.aspects[aspect_key] }}
+    <td>
+        {% if aspect_key in hobby.aspects %}
+        {{ hobby.aspects[aspect_key] }}
         {% else %}
         <i> missing </i>
         {% endif %}
@@ -28,7 +31,7 @@
 {% macro hobby_aspects(hobby) -%}
 {% if hobby.aspects is defined %}
 <div class="card-body">
-    <table class="table">
+    <table class="table w-100">
         {% for aspect_key, aspect_data in aspect_metadata | dictsort %}
         {{hobby_aspect(aspect_key, aspect_data, hobby)}}
         {% endfor %}
@@ -40,19 +43,23 @@
 {%- endmacro %}
 
 {% macro hobby_image(hobby) -%}
-{% if hobby.image is defined %}
-<img src="{{ hobby.image.src }}" class="card-img-top"
-    alt="{% if 'src' not in hobby.image %}Missing image for prompt: {% endif %}{{ hobby.image.alt }}"
-    title="{{ hobby.image.alt }}">
-{% else %}
-<p>Missing image</p>
-{% endif %}
+<div class="card-img-top">
+    {% if hobby.image is defined %}
+    {% if 'src' in hobby.image %}
+    <img src="{{ hobby.image.src }}" class="w-100" alt="{{ hobby.image.alt }}" title="{{ hobby.image.alt }}">
+    {% else %}
+    <p>Missing image for prompt: {{ hobby.image.alt }}</p>
+    {% endif %}
+    {% else %}
+    <p>Missing image</p>
+    {% endif %}
+</div>
 {%- endmacro %}
 
-{% macro hobby_titlerow(hobby, loop) -%}
-<div>
-    <p>{{loop.index}}/{{loop.length}}</p>
-    <h5 class="card-title">{{ hobby.name }}</h5>
+{% macro hobby_titlerow(group, hobby, loop) -%}
+<div class="card-title">
+    <h5>{{ hobby.name }}</h5>
+    <p>{{group.name}} {{loop.index}}/{{loop.length}}</p>
     <div class="card-debug" style="display: none">
         {{ hobby }}
     </div>
@@ -63,16 +70,18 @@
     {% for hobby_group in hobby_groups %}
     <section class="hobby-group container-fluid">
         <h2>{{ hobby_group.name }}</h2>
+
         <div class="row row-cols-4 width-100">
             {% for hobby in hobby_group.cards %}
             <div class="p-2">
                 <div class="card p-2">
                     {{ hobby_image(hobby) }}
-                    {{ hobby_titlerow(hobby, loop) }}
-                    {{hobby_aspects(hobby)}}
+                    {{ hobby_titlerow(hobby_group, hobby, loop) }}
+                    {{ hobby_aspects(hobby) }}
                 </div>
             </div>
             {% endfor %}
+        </div>
     </section>
     {% endfor %}
 

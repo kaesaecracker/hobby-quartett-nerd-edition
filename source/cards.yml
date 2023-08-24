@@ -57,13 +57,17 @@ hobby_groups:
   - name: Spiele
     cards:
       - name: Rollenspiel
-        description: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
+        image:
+          alt: Kreatur in LARP-Kostüm mit Pen&Paper-Charakterbogen in der Hand
       - name: Brettspiele
-        description: Go / Baduk
+        image:
+          alt: Go / Baduk
       - name: Videospiele
-        description: Mensch mit VR-Brille auf dem Kopf
+        image:
+          alt: Mensch mit VR-Brille auf dem Kopf
       - name: Kartenspiele
-        description: Bild der Karte (inkl. dem Bild im Bild im Bild...)
+        image:
+          alt: Bild der Karte (inkl. dem Bild im Bild im Bild...)
   - name: Räder
     enable_by_default: false
     cards:
@@ -139,12 +143,31 @@ hobby_groups:
       - name: Politisches Engagement
       - name: Open source
       - name: Organisieren
+  - name: Handarbeit
+    cards:
+      - name: Häkeln
+      - name: Stricken
+      - name: Origami
+      - name: Malen
+  - name: Tiere
+    cards:
+    - name: Hund
+    - name: Katze
+    - name: Pferd
+    - name: Schlange
+  - name: Musik
+    cards:
+    - name: Holzinstrument
+    - name: Metallinstrument
+    - name: Perkussion
+    - name: Synthetische Musik
+      image:
+      - alt: Laserharfe
 
 modifier_groups:
   - name: Material
     cards:
       - name: Holz
-        description: null
       - name: Metall
       - name: Plastik
   - name: Mit Droge in Konsumform
