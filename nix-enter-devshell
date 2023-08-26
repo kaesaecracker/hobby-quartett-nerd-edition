@@ -1,2 +1,0 @@
-#! /usr/bin/env sh
-nix-shell -p python311 python311Packages.pyyaml python311Packages.jinja2 gnumake inotify-tools
